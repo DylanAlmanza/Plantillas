@@ -8,11 +8,9 @@
 </head>
 <body>
 
-
   <header class="bg-primary text-white text-center py-3">
     <h1>Plantilla</h1>
   </header>
-
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -27,15 +25,14 @@
           <li class="nav-item"><a class="nav-link" href="#vehiculos">Vehículos Antiguos</a></li>
           <li class="nav-item"><a class="nav-link" href="#maravillas">Maravillas del Mundo</a></li>
           <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de...</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formulario">Formulario</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  
   <div class="container my-4">
 
-    
     <section id="inicio">
       <h2>Inicio</h2>
       <p>Bienvenido a esta página. Aquí encontrarás información sobre animales exóticos, vehículos antiguos y las maravillas del mundo. También podrás conocer más sobre mí en la sección “Acerca de...”.</p>
@@ -51,7 +48,6 @@
 
     <hr>
 
-  
     <section id="animales">
       <h2>Animales Exóticos</h2>
       <p>El reino animal es fascinante. Aquí encontrarás algunos ejemplos de animales acuáticos, terrestres y aéreos.</p>
@@ -89,7 +85,6 @@
 
     <hr>
 
-   
     <section id="vehiculos">
       <h2>Vehículos Antiguos</h2>
       <p>Conoce un poco sobre el nacimiento de los vehículos y algunos modelos clásicos por marca.</p>
@@ -105,7 +100,6 @@
 
     <hr>
 
-   
     <section id="maravillas">
       <h2>Las 7 Maravillas del Mundo</h2>
       <p>Conoce las siete maravillas modernas reconocidas por su historia y belleza.</p>
@@ -123,11 +117,33 @@
 
     <hr>
 
-    
     <section id="acerca">
       <h2>Acerca de.</h2>
       <p>Me gusta aprender sobre tecnología, historia y naturaleza.</p>
       <p><b>Nombre completo:</b> Almanza Dylan</p>
+    </section>
+
+    <hr>
+
+    <section id="formulario">
+      <h2>Formulario de Inicio de Sesión y Registro</h2>
+      <p>Completa el siguiente formulario para iniciar sesión o registrarte:</p>
+
+      <form class="border p-3 rounded bg-light">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre de usuario</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre de usuario">
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="Ejemplo: usuario@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="contraseña" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña">
+        </div>
+        <button type="reset" class="btn btn-primary">Enviar</button>
+      </form>
     </section>
 
   </div>
